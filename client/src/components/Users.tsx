@@ -55,8 +55,8 @@ const Users: React.FC = () => {
         <span id="time-container"></span>
       </div>
       <button
-        className="bg-red-700 rounded border-solid border-2 p-2 border-black"
-        onClick={getUsers()}
+        className="bg-red-400 rounded border-solid border-2 p-2 border-black"
+        onClick={getUsers}
       >
         Get User data
       </button>
