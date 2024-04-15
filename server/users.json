@@ -1,31 +1,22 @@
 [
-    {
-        "username": "user1",
-        "pets": [
-            "dog"
-        ]
-    },
-    {
-        "username": "user2",
-        "pets": []
-    },
-    {
-        "username": "user3",
-        "pets": [
-            "duck",
-            "duck",
-            "goose"
-        ]
-    },
-    {
-        "username": "user4",
-        "pets": [
-            "hamster"
-        ]
-    },
-    {
-        "username": "user4",
-        "pets": [
-            "hamster"
-        ]
+  {
+    "username": "user1",
+    "pets": ["dog"]
+  },
+  {
+    "username": "user2",
+    "pets": []
+  },
+  {
+    "username": "user3",
+    "pets": ["duck", "duck", "goose"]
+  },
+  {
+    "username": "user4",
+    "pets": ["hamster"]
+  },
+  {
+    "username": "user4",
+    "pets": ["hamster"]
+  }
 ]
