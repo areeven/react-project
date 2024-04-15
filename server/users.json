@@ -22,5 +22,11 @@
         "pets": [
             "hamster"
         ]
+    },
+    {
+        "username": "user4",
+        "pets": [
+            "hamster"
+        ]
     }
 ]
