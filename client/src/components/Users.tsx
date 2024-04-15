@@ -56,7 +56,7 @@ const Users: React.FC = () => {
       </div>
       <button
         className="bg-red-700 rounded border-solid border-2 p-2 border-black"
-        onClick={getUsers()}
+        onClick={getUsers}
       >
         Get User data
       </button>
