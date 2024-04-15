@@ -31,32 +31,40 @@ const dataCallBack = () => {
       console.log("dataDiv is null");
     }
   }
-
-  const getUsers = () => {
-    console.log("Getting users");
-    xhr = getXmlHttpRequestObject();
-    xhr.onreadystatechange = dataCallBack;
-
-    xhr.open("GET", "http://localhost:5000/users", true);
-    xhr.send(null);
-  };
-
-  (function () {
-    getDate();
-  })();
 };
+
+const getUsers: any = () => {
+  console.log("Getting users");
+  xhr = getXmlHttpRequestObject();
+  xhr.onreadystatechange = dataCallBack;
+
+  xhr.open("GET", "http://localhost:6969/users", true);
+  xhr.send(null);
+};
+
+(function () {
+  getDate();
+})();
 
 const Users: React.FC = () => {
   return (
-    <>
+    <div className="text-center">
       <h1>Users</h1>
       <div>
         <span>Last update: </span>
         <span id="time-container"></span>
       </div>
-      <button onClick={getUsers()}>Get User data</button>
-      <div id="result-container"></div>
-    </>
+      <button
+        className="bg-red-700 rounded border-solid border-2 p-2 border-black"
+        onClick={getUsers()}
+      >
+        Get User data
+      </button>
+      <div
+        id="result-container"
+        className="border-solid border-2 border-black p-2 w-1/2 mx-auto mt-4"
+      ></div>
+    </div>
   );
 };
 
