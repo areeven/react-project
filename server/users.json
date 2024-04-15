@@ -1,7 +1,9 @@
 [
     {
         "username": "user1",
-        "pets": ["dog"]
+        "pets": [
+            "dog"
+        ]
     },
     {
         "username": "user2",
@@ -9,6 +11,16 @@
     },
     {
         "username": "user3",
-        "pets": ["duck", "duck", "goose"]
+        "pets": [
+            "duck",
+            "duck",
+            "goose"
+        ]
+    },
+    {
+        "username": "user4",
+        "pets": [
+            "hamster"
+        ]
     }
 ]
